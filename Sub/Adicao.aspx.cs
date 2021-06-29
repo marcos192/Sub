@@ -17,7 +17,7 @@ namespace Sub
         protected void btnClique_Click(object sender, EventArgs e)
             {
 
-            Response.Redirect("Sej.aspx");
+            
 
 
             float num1, num2, resultado;
