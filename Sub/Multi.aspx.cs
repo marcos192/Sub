@@ -13,5 +13,20 @@ namespace Sub
             {
 
             }
+
+        protected void btnClique_Click(object sender, EventArgs e)
+            {
+            float num1, num2, resultado;
+
+            num1 = Convert.ToInt32(txtNum1.Text);
+            num2 = Convert.ToInt32(txtNum2.Text);
+            resultado = (num1 * num2);
+            lblResultado.Text = $"O resultado é: {resultado.ToString()}";
+            }
+
+        protected void btnVoltar_Click(object sender, EventArgs e)
+            {
+            Response.Redirect("Sej.aspx");
+            }
         }
     }
