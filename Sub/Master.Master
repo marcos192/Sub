@@ -16,7 +16,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-lignt bg-light">
             <a class="navbar-brand" href="#">
-                <img src="img/logo.png" class="img-fluid" width="80" />
+                <img src="img/Calculadora-de-Mesa-com-Bobina-Dig-HR-150RC-Preta-CASIO.jpg" class="img-fluid" width="80" />
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -27,6 +27,10 @@
 
             <div class="navbar-collapse navbar-collapse" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sej.aspx">Inicio</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Adicao.aspx">Adição</a>
                     </li>

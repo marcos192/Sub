@@ -11,7 +11,7 @@ namespace Sub
     {
 
 
-    public partial class Adicao
+    public partial class Multi
         {
 
         /// <summary>

@@ -76,7 +76,10 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Div.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\Calculadora-de-Mesa-com-Bobina-Dig-HR-150RC-Preta-CASIO.jpg" />
+    <Content Include="Multi.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -177,6 +180,8 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Sej.aspx" />
+    <Content Include="Sub.aspx" />
     <Content Include="Web.config" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -197,6 +202,13 @@
     <Compile Include="Adicao.aspx.designer.cs">
       <DependentUpon>Adicao.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Div.aspx.cs">
+      <DependentUpon>Div.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Div.aspx.designer.cs">
+      <DependentUpon>Div.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -207,7 +219,28 @@
     <Compile Include="Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
     </Compile>
+    <Compile Include="Multi.aspx.cs">
+      <DependentUpon>Multi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Multi.aspx.designer.cs">
+      <DependentUpon>Multi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sej.aspx.cs">
+      <DependentUpon>Sej.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sej.aspx.designer.cs">
+      <DependentUpon>Sej.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sub.aspx.cs">
+      <DependentUpon>Sub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sub.aspx.designer.cs">
+      <DependentUpon>Sub.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

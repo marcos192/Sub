@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Adicao.aspx.cs" Inherits="Sub.Adicao" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Div.aspx.cs" Inherits="Sub.Div" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="text-center text-black">
-        <h2>Adição</h2>
+     <div class="text-center text-black">
+        <h2>Divisão</h2>
     </div>
 
 
@@ -33,4 +33,5 @@
             
         </div>
     </div>
+
 </asp:Content>
