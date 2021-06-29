@@ -17,8 +17,6 @@ namespace Sub
         protected void btnClique_Click(object sender, EventArgs e)
             {
 
-         
-
             float num1, num2, resultado;
 
             num1 = Convert.ToInt32(txtNum1.Text);
